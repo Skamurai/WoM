@@ -1,7 +1,7 @@
 body {
     background-color: #171717;
     height: 100vh;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito', sans-serif;
   }
   .container {
     position: absolute;
@@ -24,7 +24,7 @@ body {
   }
   form p {
     font-weight: 500;
-    color: #fff;
+    color: #ffffff;
     opacity: 0.7;
     font-size: 1.4rem;
     margin-top: 0;
@@ -33,7 +33,7 @@ body {
   }
   form a {
     text-decoration: none;
-    color: #ddd;
+    color: #ffffff;
     font-size: 12px;
   }
   form a:hover {
@@ -53,8 +53,8 @@ body {
     border-radius: 5000px;
     backdrop-filter: blur(5px);
     box-shadow: 4px 4px 60px rgba(0, 0, 0, 0.2);
-    color: #fff;
-    font-family: Montserrat, sans-serif;
+    color: #ffffff;
+    font-family: 'Nunito', sans-serif;
     font-weight: 500;
     transition: all 0.2s ease-in-out;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
@@ -72,6 +72,15 @@ body {
     width: 150px;
     font-size: 1rem;
   }
+  form input[type="buttonforgot"] {
+    width: 100px;
+    font-size: 12px;
+    margin-top: -10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    color: #d4cece;
+    border: none; 
+}
   form input[type="button"]:hover {
     cursor: pointer;
   }
@@ -82,9 +91,9 @@ body {
     margin: 4px;
   }
   ::placeholder {
-    font-family: Montserrat, sans-serif;
+    font-family: 'Nunito', sans-serif;
     font-weight: 400;
-    color: #fff;
+    color: #d4cece;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
   }
   .drop {
