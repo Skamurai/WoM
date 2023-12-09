@@ -1,0 +1,128 @@
+.container-fl {
+    width: 100%;
+    margin-top: -20px;
+}
+
+header .menu {
+    font-size: 20px;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header > .container {
+    padding: 40px 20px;
+}
+
+header .burgerbutton{
+    display: none;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border: none;
+    background-color: transparent;
+    z-index: 2;
+}
+
+.burgermenu .burgerbutton span{
+    position: absolute;
+    width: 30px;
+    height: 3px;
+    background-color: #ebebeb;
+    left: 5px;
+    transition: transform .5s, opacity .5s, background-color .5s;
+}
+
+.burgermenu .burgerbutton span:nth-child(1){
+    transform: translateY(-10px);
+}
+
+.burgermenu .burgerbutton span:nth-child(3){
+    transform: translateY(10px);
+}
+
+.burgermenu.open .burgerbutton span:nth-child(1){
+    transform: translateY(0) rotate(-45deg);
+}
+
+.burgermenu.open .burgerbutton span:nth-child(2){
+    opacity: 0;
+}
+
+.burgermenu.open .burgerbutton span:nth-child(3){
+    transform: translateY(0) rotate(45deg);
+}
+
+header .container .menu a{
+    margin: 0 130px;
+    color: #ebebeb;
+    text-decoration: none;
+    position: relative;
+}
+
+header .container .menu a:hover, 
+header .container .menu a:active{
+    color:rgb(239, 143, 175);
+    transition: color ease-in-out 0.2s;
+} 
+
+.logo {
+    width: 5%;
+}
+
+.wom{
+    height: auto;
+    display: flex;
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 333px;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+.up-we-go {
+  color: black;
+  text-decoration: none;
+  position: relative;
+}
+
+.up-we-go:active, .up-we-go:hover {
+  color:rgb(239, 143, 175);
+  transition: color ease-in-out 0.2s;
+}
+
+footer {
+    background-color: #E4E6C3;
+    color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+footer .container_d-flex{
+    max-width: 1140px;
+  margin: 0 auto;
+  padding-top: 15px;
+  display: flex;
+  align-items: center;
+}
+
+footer .right {
+    margin-right: 10px;
+}
+
+footer .copyrights {
+    text-align: center;
+    padding-top: 40px;
+    font-size: 15px;
+}
