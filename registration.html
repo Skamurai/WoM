@@ -3,32 +3,39 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet"> 
-<title>Вход</title>
-<link rel="stylesheet" type="text/css" href="css/registration.css">
+  <title>Вход</title>
+  <link rel="stylesheet" type="text/css" href="css/registration.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400&display=swap');
+  </style>
 </head>
 <body>
   <div class="container">
+    
     <form>
       <p>Добро пожаловать!</p>
-      <input type="email" placeholder="Электронная почта"><br>
-      <input type="password" placeholder="Пароль"><br>
-      <input type="button" value="Войти" onclick="checkRegistration()"><br>
-      <a href="#">Забыли пароль?</a>
+      <input type="email" id="email" placeholder="Электронная почта"><br>
+      <input type="password" id="password" placeholder="Пароль"><br>
+      <input type="button" value="Войти" onclick="redirectToYourSite()"><br>
+      <a href="#" onclick="showObidnoAlert()">Забыли пароль?</a>
     </form>
     
     <script>
-    function checkRegistration() {
-      var userInput = prompt("Желаете пройти регистрацию на сайте?");
-    
-      if (userInput && userInput.toLowerCase() === "да") {
-        alert("Круто!");
-      } else {
-        alert("Попробуй ещё раз");
+      function redirectToYourSite() {
+        var email = document.getElementById('email').value;
+        var password = document.getElementById('password').value;
+
+        if (email === '' || password === '') {
+          alert('Заполните все поля!');
+        } else {
+          window.location.href = 'index.html';
+        }
       }
-    }
-    </script> 
+
+      function showObidnoAlert() {
+        alert('Обидно');
+      }
+    </script>  
   
     <div class="drops">
       <div class="drop drop-1"></div>
