@@ -1,0 +1,170 @@
+/*
+>= 1200
+992 - 1199
+768 - 991
+576 - 768
+460 - 576
+414 - 460
+375 - 414
+320 - 375
+*/
+
+@media screen and (max-width: 1053px){
+
+    main .intro, main .gallery1, main .gallery2 {
+        flex-wrap: wrap;
+        margin-top: auto;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+    main .block4 {
+        margin-top: 20px;
+    }
+
+    main .block6 {
+        margin-top: 20px;
+    }
+
+}
+
+@media screen and (max-width: 768px){
+    
+    main .block4 {
+        margin-top: 20px;
+    }
+
+    main .block6 {
+        margin-top: 20px;
+    }
+
+    main .block2{
+        margin-right: 15px;
+    }
+}
+
+@media screen and (max-width: 576px){
+
+    main .block2 {
+        padding-bottom: 10px;
+    }
+    
+    main .block4 {
+        margin-top: 20px;
+    }
+
+    main .block6 {
+        margin-top: 20px;
+    }
+    
+    main .blocktxt{
+        height: 400px;
+    }
+
+    .blocktxt h3{
+        padding-top: 10px;
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 460px){
+
+    main .block2 {
+        margin-top:-44px;
+        padding-bottom: 50px;
+    }
+    
+    main .block4 {
+        margin-top: 20px;
+    }
+
+    main .block6 {
+        margin-top: 20px;
+    }
+
+    main .blocktxt{
+        height: 350px;
+    }
+
+    .blocktxt h3{
+        padding-top: 10px;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 393px){
+
+    .block1 h2 {
+        font-size: 40px;
+    }
+
+    main .block2 {
+        padding-bottom: 70px;
+    }
+    
+    .block3 h2{
+        font-size: 30px;
+    }
+
+    .block4 h2{
+        font-size: 30px;
+    }
+    
+    .block5 h2{
+        font-size: 30px;
+    }
+
+    .block6 h2{
+        font-size: 30px;
+    }
+
+    main .blocktxt{
+        height: 300px;
+    }
+
+    .blocktxt h3{
+        padding-top: 10px;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 350px){
+
+    .block1 h2 {
+        font-size: 30px;
+    }
+
+    main .block2 {
+        padding-top: 20px;
+        padding-bottom: 35px;
+    }
+    
+    .block3 h2{
+        font-size: 25px;
+    }
+
+    .block4 h2{
+        font-size: 25px;
+    }
+    
+    .block5 h2{
+        font-size: 25px;
+    }
+
+    .block6 h2{
+        font-size: 25px;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+
+    main .blocktxt{
+        height: 280px;
+    }
+
+    .blocktxt h3{
+        padding-top: 10px;
+        font-size: 15px;
+    }
+}

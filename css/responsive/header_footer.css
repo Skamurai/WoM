@@ -1,0 +1,153 @@
+/*
+>= 1200
+992 - 1199
+768 - 991
+576 - 768
+460 - 576
+414 - 460
+375 - 414
+320 - 375
+*/
+
+@media screen and (max-width: 1199px){
+
+    header .container .menu a {
+        margin: 0 115px;
+    }
+
+}
+
+@media screen and (max-width: 1010px){
+
+    header .container .menu a {
+        margin: 0 90px;
+    }
+}
+
+@media screen and (max-width: 991px){
+
+    header > .container .menu a {
+        flex-wrap: wrap;
+    }
+
+    header .container .menu a {
+        margin: 0 80px;
+    }
+
+    .logo {
+        width: 5%;
+    }
+
+}
+
+@media screen and (max-width: 790px){
+
+    header .container .menu a {
+        margin: 0 50px;
+    }
+
+    .logo {
+        width: 10%;
+    }
+
+    footer .d-flex{
+        display: block;
+    }
+
+    footer .right {
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 632px){
+
+    header .container .menu a {
+        margin: 0 40px;
+    }
+
+    .logo {
+        width: 10%;
+    }
+}
+
+@media screen and (max-width: 576px){
+
+
+    header .d-flex {
+        display: block;
+    }
+
+    .menu{
+        background-color: transparent;
+        position: absolute;
+        left: -350px;
+        top: 0;
+        width: 300px;
+        padding: 98px 20px 20px 20px;
+        transition: transform .5s;
+    }
+
+    .burgermenu.open .menu{
+        transform: translateX(100%);
+    }
+
+    header .container .menu a{
+        display: block;
+        padding-top: 17px;
+    }
+
+    header .burgerbutton {
+        display: block;
+    }
+
+    .logo {
+        width: 10%;
+        float: right;
+    }
+
+    .wom h1 {
+        font-size: 50px
+    }
+
+}
+
+@media screen and (max-width: 460px){
+
+    header .d-flex {
+        display: block;
+    }
+
+    .logo {
+        width: 10%;
+    }
+}
+
+@media screen and (max-width: 393px){
+
+    .wom h1 {
+       font-size: 45px;
+    }
+
+    .left h2{
+        font-size: 40px;
+    }
+
+    .right h2{
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 350px){
+
+    .wom h1 {
+       font-size: 35px;
+    }
+
+    .left h2{
+        font-size: 30px;
+    }
+
+    .right h2{
+        font-size: 30px;
+    }
+}
