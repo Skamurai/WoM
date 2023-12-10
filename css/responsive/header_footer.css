@@ -57,6 +57,11 @@
     footer .right {
         margin-bottom: 40px;
     }
+
+    .social-buttons img{
+        display: inline-block;
+        width: 55px;
+    }
 }
 
 @media screen and (max-width: 632px){
@@ -71,7 +76,6 @@
 }
 
 @media screen and (max-width: 576px){
-
 
     header .d-flex {
         display: block;
