@@ -210,18 +210,12 @@ main > .gallery2{
 .round-button {
   display: inline-block;
   width: 100px;
-  height: 100px;
-  background-color: #E4E6C3; 
-  border-radius: 50%; 
-  margin: 75px; 
+  background-color: #E4E6C3;
   text-align: center;
   line-height: 100px; 
   color: #fff; 
-  font-size: 24px; 
+  font-size: 20px; 
   text-decoration: none;
-  overflow: hidden; 
-  position: relative;
-  transition: background-color 0.3s linear; 
   cursor: pointer;
 }
 
@@ -229,19 +223,8 @@ main > .gallery2{
   max-width: 70px;
   max-height: 70px;
   vertical-align: middle;
-  transition: opacity 0.2s;
 }
 
-.round-button::before{
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 0;
-  background: #E4E6C3;
-  transition: height 0.2s linear;
-}
 
 .round-button:hover img {
   opacity: 0.95; 
